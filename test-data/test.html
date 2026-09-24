@@ -1,0 +1,219 @@
+<main id="main" class="site-main" role="main">
+            <div class="container">
+			
+
+<div id="post-6">
+			<div class="entry-content">
+			<div class="woocommerce">                    <script>
+                    algolia_defer_till_jQuery(function ($) {
+                   $(document).ready(function(){
+                    var orderDedupeKey = "algolia_tracked_order_4363047";
+                    if(localStorage.getItem(orderDedupeKey)){
+                        return;
+                    }
+                    localStorage.setItem(orderDedupeKey, "1");
+
+                    var objectData = [{"price":1969,"quantity":1}];
+                   if(typeof aa != "undefined"){
+                       if(algolia_index_name){
+
+                           var storedFilters = sdg_getWithExpiry("storedFilters")
+                           if(storedFilters){
+                                if(storedFilters.length > 0){
+                                    var storedQueryID = sdg_getWithExpiry("storedQueryID");
+                                    var eventData = {
+                                        index: algolia_index_name,
+                                        eventSubtype: 'purchase',
+                                        currency : sdg_text_to_currency(sdgCurrency),
+                                        eventName: 'Product Purchased via Filter',
+                                        filters: storedFilters
+                                    }
+                                    if(storedQueryID){
+                                        eventData.queryID = storedQueryID
+                                    }
+                                   
+                                    aa('convertedFilters',eventData);
+                                }
+                                localStorage.removeItem("storedFilters")
+                           }
+                           var storedQueryID = sdg_getWithExpiry("storedQueryID")
+                           if(storedQueryID){
+                               aa('convertedObjectIDsAfterSearch', {
+                                   index: algolia_index_name,
+                                   eventName: 'Product Purchased',
+                                   queryID: storedQueryID,
+                                   eventSubtype: 'purchase',
+                                    currency : sdg_text_to_currency(sdgCurrency),
+                                    objectData: objectData,
+                                   objectIDs: ["74"]                                   });
+                                   localStorage.removeItem("storedQueryID")
+                           } else {
+                               aa('convertedObjectIDs', {
+                               index: algolia_index_name,
+                               eventName: 'Product Purchased',
+                               eventSubtype: 'purchase',
+                                currency : sdg_text_to_currency(sdgCurrency),
+                                objectData: objectData,
+                               objectIDs: ["74"]                           }); 
+                           }
+                       }
+                   }
+                })
+            })
+              
+               </script>
+                    
+    <div class="order-confirmation confirm-order">
+
+                               
+        <div class="confirm-msg text-center">
+                    <svg class="icon wh-25 fill-white">
+                <use xlink:href="#tick-outline"></use>
+            </svg>
+            <h3 class="woocommerce-thankyou-order-received">
+                Thank you.            </h3>
+                                        <p class="confirm-desc">
+
+                    <strong>Order number STGAE4363047</strong><br>Your order was received and will be processed soon<br><a href="/my-account/orders/" class="highlight-txt ms-1">View your orders</a>.                </p> 
+                    </div>
+
+      
+                <div class="account-container order-detail">
+            <!--<h1></h1>
+			<div class="clearfix">
+				<h3></h3>
+			</div>-->
+
+            
+
+
+<h1 class="mb-5">Order  STGAE4363047</h1>
+		 
+
+	<div class="multiple-shipments-order-details">		
+	
+		
+				<div class="order-detail-body">
+							
+						
+<div class="review-and-shipping">
+
+   <div class="review-sections">
+
+               <div class="review-section">
+            <div class="review-header">
+               <div class="delivery-date">
+                  <strong class="text-primary fs-2">
+                                       Arriving                     Sat, 26 Sep – Tue, 29 Sep
+                                    </strong>
+               </div>
+               <div class="sold-by fs-5">
+                  Sold by <span>Sharaf DG</span>
+                  <!-- This would depend on data, if available -->
+               </div>
+            </div>
+
+            <div class="review-content">
+               <div class="order-items">
+                                          <div class="order-item">
+                           <div class="product-image">
+                              <a href="https://uae.sdgstage.com/product/apple-iphone-14-pro-256gb-silver-physical-dual-sim-international-version/"><img src="https://devcdn.sharafdg.com/cdn-cgi/image/width=180,height=180,fit=pad,format=webp,quality=70/stg-akeneo-images/IPHONE14PRO_silver_1?1756123159"></a>                           </div>
+                           <div class="product-details">
+                              <p class="fs-5"><strong>Apple iPhone 14 Pro (256GB) - Silver</strong>
+                              </p>
+                               
+                                 <div class="mt-2">
+                                    <span style="color:#888888;font-weight:500">Price</span>
+                                    <span class="ms-2">
+                                       <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"><span class="currency_symbol dirham">D</span> </span>1,969.00</span>                                    </span>
+                                    <!-- Assuming static price -->
+                                 </div>
+
+                                 <div class="item-price mt-1">
+                                    <span style="color:#888888;font-weight:500">Qty</span>
+                                    <span class="ms-3"> 1</span> 
+                                 </div>
+
+                                 
+                                                                                                <div class="promo-details mt-2">
+                                       <div class="bundle-summary">
+                                             <p style="color:#888888;font-weight:500">Offer includes</p>
+                                             <ul class="browser-default nav">
+                                                                                                   <li class="bundle-item"><span class="h-content">Lenovo ideapad 710S-13ISK Laptop - Core i5 2.3GHz 4GB 256GB Shared Win10 13.3inch FHD Gold English/Arabic Keyboard</span></li>
+                                                                                                   <li class="bundle-item"><span class="h-content">DJI Osmo Action Camera</span></li>
+                                                                                             </ul>
+                                       </div>
+                                    </div>
+                                                                                                                        </div>
+                        </div>
+                                                                       </div>
+            </div>
+         </div>
+         </div>
+</div>					
+										
+		
+	</div>
+
+	<div class="order-detail-header">
+    <!-- Order Summary Box -->
+    <div class="order-summary box">
+         <div class="order-summary-sub-heading">
+            <span>Order Summary</span>
+        </div>
+        <table>
+            <tbody>
+                                                    <tr>
+                        <td valign="top" class="text-left cart_subtotal" width="50%">
+                            Subtotal                                                    </td>
+                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"><span class="currency_symbol dirham">D</span> </span>1,969.00</span></td>
+                    </tr>
+                                    <tr>
+                        <td valign="top" class="text-left shipping" width="50%">
+                            Shipping                                                    </td>
+                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"><span class="currency_symbol dirham">D</span> </span>15.00</span>&nbsp;<small class="shipped_via">via Home Delivery</small></td>
+                    </tr>
+                                    <tr>
+                        <td valign="top" class="text-left order_total" width="50%">
+                            Total                                                    </td>
+                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"><span class="currency_symbol dirham">D</span> </span>1,984.00</span></td>
+                    </tr>
+                            </tbody>
+        </table>
+
+        
+         <!-- Payment Method -->
+        <div class="payment-method">
+            <div class="order-summary-sub-heading-top">
+                <span>Payment Method</span>
+            </div>
+        
+            <span>
+                Credit/Debit Card            </span>
+        </div>
+        
+    </div>
+
+    <!-- Shipping Details Box -->
+    <div class="shipping box">
+        <div class="order-summary-sub-heading">
+            <span>Shipping Details</span>
+        </div>
+        
+                    test test<br><span class="address_phone ltr">+971501234567</span><br>bhurji khalifa<br>1 Sheikh Mohammed bin Rashid Blvd - Burj Khalifa - Downtown Dubai - Dubai - United Arab Emirates<br>Downtown<br>Dubai            </div>
+</div>
+</div>
+		</div>
+		
+		
+
+                            <script>
+          jQuery(document).ready(function() {
+            reset_local_storage()
+        });
+    </script>
+    </div>
+					</div><!-- .entry-content -->
+		</div><!-- #post-## -->
+            </div>
+		</div></main>

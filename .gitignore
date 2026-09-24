@@ -1,0 +1,55 @@
+# Dependencies
+
+node_modules/
+
+# Playwright
+
+playwright/.auth/
+test-results/
+playwright-report/
+blob-report/
+
+# Playwright generated artifacts
+
+*.zip
+
+# Environment files
+
+.env
+.env.*
+!.env.example
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Coverage
+
+coverage/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Generated files
+
+dist/
+build/
+
+# Local test data backups
+
+*.bak
+*.backup

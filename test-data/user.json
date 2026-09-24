@@ -1,0 +1,21 @@
+{
+  "registration": {
+    "firstName": "Playwright",
+    "lastName": "Automation",
+    "mobileNumber": "501234567"
+  },
+  "credentials": {
+    "password": "Playwright@12345"
+  },
+  "registeredEmails": [
+    "pwtest544741@uberip.com",
+    "pwtest226356@uberip.com",
+    "pwtest778017@uberip.com",
+    "pwtest939656@uberip.com",
+    "pwtest606305@uberip.com",
+    "pwtest230994@uberip.com",
+    "pwtest935932@uberip.com",
+    "pwtest482989@uberip.com",
+    "pwtest415732@uberip.com"
+  ]
+}
